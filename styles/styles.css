@@ -1,1 +1,9 @@
+@CHARSET "UTF-8";
 
+body {
+	background: #000000;
+}
+
+.container{
+	background: #FFFFFF;
+}
