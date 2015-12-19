@@ -4,7 +4,7 @@
 $(document).ready(function(){
 	console.log('Begin');
 	$(document).on("click",'#wow',function(){wow()});
-	$(document).on("click", 'dl1', function(){dl1()});
+	$(document).on("click", '#dl1', function(){dl1()});
 });
 
 var dl1 = function(){
