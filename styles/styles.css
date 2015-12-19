@@ -1,9 +1,27 @@
 @CHARSET "UTF-8";
 
 body {
- 	background: #CDCDCD;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.container{
-	background: #FFFFFF;
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+.hero-feature img {
+	width: 252.5px; 
+	height:157.83px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+footer{
+	margin: 50px 0;
+	text-align: center;
 }
