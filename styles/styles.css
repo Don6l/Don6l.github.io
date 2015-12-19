@@ -25,3 +25,8 @@ footer{
 	margin: 50px 0;
 	text-align: center;
 }
+
+.row h3{
+	padding-left: 0.61em;
+	border-left:20em;
+}
