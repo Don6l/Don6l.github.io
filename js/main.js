@@ -3,7 +3,7 @@
 */
 $(document).ready(function(){
 	console.log('Begin');
-	
+	readyAll();
 });
 
 var readyAll = function(){
@@ -12,23 +12,18 @@ var readyAll = function(){
 	$(document).on("click", '#dl1', function(){dl1()});
 	$(document).on("click", '#dl2', function(){dl2()});
 	$(document).on("click", '#dl3', function(){dl3()});
-
-
 };
 
 var dl1 = function(){
 	alert("Download button one.");
-	
 };
 
 var dl2 = function(){
 	alert("Download button two.");
-	
 };
 
 var dl3 = function(){
 	alert("Download button three.");
-	
 };
 
 var mainButton = function(){
