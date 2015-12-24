@@ -14,5 +14,4 @@ var dl1 = function(){
 
 var mainButton = function(){
 	alert("Main button");
-	
 };
