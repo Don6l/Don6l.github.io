@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<script src="js/jquery-2.1.4.js" type="text/javascript"></script>
 	<script type="text/javascript" src= "js/main.js"></script>
+	<script type="text/javascript" src= "js/bootstrap.js"></script>
 </head>
 <body>
 	<!-- Navigation -->
@@ -33,7 +34,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>        	
+                        <a data-toggle="modal" data-target="#aboutModal"  href="#" >About</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -44,7 +45,26 @@
         </div>
         <!-- /.container -->
     </nav>
-    
+    <!-- Modal -->
+	<div class="modal fade" id="aboutModal" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Donal McClean</h4>
+				</div>
+				<div class="modal-body">
+					<p>Donal McClean is a graduate from both Maynooth University and Athlone Institute of Technology.</p>
+					<p>He has recieved a Bachelors in English and Sociolgy, a Masters in Sociolgy and Human Geographys and a Higher Diploma in Information Technology from Maynooth Unviersity</p>
+					<p>In Athlone Insitute of Technology he has completed a Certificate in Software Engineering and a Masters in Applied Software Enginering.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>     
+		</div>
+	</div>
 
     <!-- Page Content -->
     <div class="container">    	
