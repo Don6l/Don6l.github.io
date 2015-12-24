@@ -12,6 +12,10 @@ var readyAll = function(){
 	$(document).on("click", '#dl1', function(){dl1()});
 	$(document).on("click", '#dl2', function(){dl2()});
 	$(document).on("click", '#dl3', function(){dl3()});
+
+	$('#myModal').on('shown.bs.modal', function () {
+  		$('#myInput').focus()
+	})
 };
 
 var dl1 = function(){
