@@ -28,5 +28,5 @@ var dl3 = function(){
 };
 
 var mainButton = function(){
-	alert("Main button");
+	window.open('http://don6l.github.io/web');
 };
