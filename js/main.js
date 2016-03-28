@@ -8,15 +8,15 @@ $(document).ready(function(){
 
 var readyAll = function(){
 	console.log('readyAll');
-	$(document).on("click",'#mainButton',function(){mainButton()});
-	$(document).on("click", '#dl1', function(){dl1()});
+	$(document).on("click",'#wizardGame',function(){wizardGame()});
+	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#dl2', function(){dl2()});
 	$(document).on("click", '#dl3', function(){dl3()});
 
 };
 
-var dl1 = function(){
-	alert("Download button one.");
+var ggi = function(){
+	window.open('www.goodgameireland.com');
 };
 
 var dl2 = function(){
@@ -27,6 +27,6 @@ var dl3 = function(){
 	alert("Download button three.");
 };
 
-var mainButton = function(){
+var wizardGame = function(){
 	window.open('http://don6l.github.io/web');
 };
