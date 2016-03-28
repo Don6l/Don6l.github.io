@@ -16,7 +16,7 @@ var readyAll = function(){
 };
 
 var ggi = function(){
-	window.open('www.goodgameireland.com');
+	window.open('http://www.goodgameireland.com');
 };
 
 var dl2 = function(){
