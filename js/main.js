@@ -10,7 +10,7 @@ var readyAll = function(){
 	console.log('readyAll');
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
-	$(document).on("click", '#dl3', function(){git()});
+	$(document).on("click", '#git', function(){git()});
 
 };
 
