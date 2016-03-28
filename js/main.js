@@ -10,8 +10,8 @@ var readyAll = function(){
 	console.log('readyAll');
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
-	$(document).on("click", '#dl2', function(){dl2()});
-	$(document).on("click", '#dl3', function(){dl3()});
+
+	$(document).on("click", '#dl3', function(){git()});
 
 };
 
@@ -19,12 +19,8 @@ var ggi = function(){
 	window.open('http://www.goodgameireland.com');
 };
 
-var dl2 = function(){
-	alert("Download button two.");
-};
-
-var dl3 = function(){
-	alert("Download button three.");
+var git = function(){
+	window.open('https://github.com/Don6l');
 };
 
 var wizardGame = function(){
