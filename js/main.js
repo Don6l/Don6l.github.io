@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 var readyAll = function(){
 	console.log('readyAll');
-	$(document).on("click",'#imageSelect',function(){wizardGame()});
+	$(document).on("click",'#imageSelect',function(){imageSelect()});
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
@@ -28,5 +28,5 @@ var wizardGame = function(){
 };
 
 var imageSelect = function(){
-	window.open('http://don6l.github.io/web');
+	alert('Nothing Yet');
 };
