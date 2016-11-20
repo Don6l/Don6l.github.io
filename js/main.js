@@ -16,7 +16,8 @@ var readyAll = function(){
 };
 
 var ggi = function(){
-	window.open('http://www.goodgameireland.com');
+	//window.open('http://www.goodgameireland.com');
+	alert('Site under maintaince.')
 };
 
 var git = function(){
