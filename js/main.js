@@ -28,6 +28,10 @@ var wizardGame = function(){
 	window.open('http://don6l.github.io/web');
 };
 
+var Freq = function(){
+	window.open('https://jackgllghr.itch.io/freq');
+};
+
 var imageSelect = function(){
 	alert('Nothing Yet');
 };
