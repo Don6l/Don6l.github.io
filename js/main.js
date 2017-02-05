@@ -28,7 +28,7 @@ var wizardGame = function(){
 	window.open('http://don6l.github.io/web');
 };
 
-var Freq = function(){
+var freq = function(){
 	console.log('Freq');
 	window.open('https://jackgllghr.itch.io/freq');
 };
