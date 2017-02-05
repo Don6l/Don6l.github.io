@@ -29,6 +29,7 @@ var wizardGame = function(){
 };
 
 var Freq = function(){
+	console.log('Freq');
 	window.open('https://jackgllghr.itch.io/freq');
 };
 
