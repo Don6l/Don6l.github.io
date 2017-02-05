@@ -12,7 +12,7 @@ var readyAll = function(){
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
-	$(document).on("click", '#freq', function(){git()});
+	$(document).on("click", '#freq', function(){freq()});
 };
 
 var ggi = function(){
