@@ -21,6 +21,7 @@ var ggi = function(){
 };
 
 var git = function(){
+	console.log('git');
 	window.open('https://github.com/Don6l');
 };
 
