@@ -13,6 +13,7 @@ var readyAll = function(){
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
 	$(document).on("click", '#freq', function(){freq()});
+	$(document).on("click", '#TOW', function(){tow()});
 };
 
 var ggi = function(){
@@ -34,6 +35,12 @@ var freq = function(){
 	window.open('https://jackgllghr.itch.io/freq');
 };
 
+
 var imageSelect = function(){
 	alert('Nothing Yet');
+};
+
+var tow = function(){
+	console.log('TOW');
+	window.open('http://don6l.github.io/TugOfWar');
 };
