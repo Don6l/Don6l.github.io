@@ -14,7 +14,12 @@ var readyAll = function(){
 	$(document).on("click", '#git', function(){git()});
 	$(document).on("click", '#freq', function(){freq()});
 	$(document).on("click", '#TOW', function(){tow()});
+	$(document).on("click", '#K2CLD', function(){K2CLD()});
 };
+
+var K2CLD = function(){
+	window.open('https://itch.io/jam/gmtk-jam/rate/159156')
+}
 
 var ggi = function(){
 	//window.open('http://www.goodgameireland.com');
