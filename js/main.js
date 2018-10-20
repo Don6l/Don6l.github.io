@@ -15,6 +15,7 @@ var readyAll = function(){
 	$(document).on("click", '#freq', function(){freq()});
 	$(document).on("click", '#TOW', function(){tow()});
 	$(document).on("click", '#K2CLD', function(){K2CLD()});
+	$(document).on("click", '#pixelBuster', function(){pixelBuster()});
 };
 
 var K2CLD = function(){
