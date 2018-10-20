@@ -49,3 +49,8 @@ var tow = function(){
 	console.log('TOW');
 	window.open('http://don6l.github.io/TugOfWar');
 };
+
+var pixelBuster = function(){
+	console.log('pixelBuster');
+	window.open('https://don6l.itch.io/pixel-busters-game-jam');
+};
