@@ -23,8 +23,8 @@ var K2CLD = function(){
 }
 
 var ggi = function(){
-	//window.open('http://www.goodgameireland.com');
-	alert('Site under maintaince.')
+	window.open('http://don6l.github.io/GabeGame.zip');
+	//alert('Site under maintaince.')
 };
 
 var git = function(){
