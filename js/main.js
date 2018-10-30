@@ -23,7 +23,7 @@ var K2CLD = function(){
 }
 
 var ggi = function(){
-	window.open('http://don6l.github.io/GabeGame.zip');
+	window.open('http://don6l.github.io/GabeGameV3.zip');
 	//alert('Site under maintaince.')
 };
 
