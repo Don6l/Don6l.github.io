@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 var readyAll = function(){
 	console.log('readyAll');
-	$(document).on("click",'#evac',function(){imageSelect()});
+	$(document).on("click",'#evac',function(){evac()});
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
