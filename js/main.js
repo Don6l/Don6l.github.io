@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 var readyAll = function(){
 	console.log('readyAll');
-	$(document).on("click",'#imageSelect',function(){imageSelect()});
+	$(document).on("click",'#evac',function(){imageSelect()});
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
@@ -42,8 +42,9 @@ var freq = function(){
 };
 
 
-var imageSelect = function(){
-	alert('Nothing Yet');
+var evac = function(){
+	console.log('evac');
+	window.open('https://don6l.itch.io/evac');
 };
 
 var tow = function(){
