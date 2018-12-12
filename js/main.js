@@ -9,6 +9,7 @@ $(document).ready(function(){
 var readyAll = function(){
 	console.log('readyAll');
 	$(document).on("click",'#evac',function(){evac()});
+	$(document).on("click",'#linkedIn',function(){linkedIn()});
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
@@ -18,8 +19,14 @@ var readyAll = function(){
 	$(document).on("click", '#pixelBuster', function(){pixelBuster()});
 };
 
+var linkedIn = function(){
+	console.log('linkedIn');
+	window.open('https://www.linkedin.com/in/donal-mcclean-34199b96/');
+}
+
 var K2CLD = function(){
-	window.open('https://itch.io/jam/gmtk-jam/rate/159156')
+	console.log('K2CLD');
+	window.open('https://itch.io/jam/gmtk-jam/rate/159156');
 }
 
 var ggi = function(){
