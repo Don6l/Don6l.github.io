@@ -8,22 +8,30 @@ $(document).ready(function(){
 
 var readyAll = function(){
 	console.log('readyAll');
-	$(document).on("click",'#imageSelect',function(){imageSelect()});
+	$(document).on("click",'#evac',function(){evac()});
+	$(document).on("click",'#linkedIn',function(){linkedIn()});
 	$(document).on("click",'#wizardGame',function(){wizardGame()});
 	$(document).on("click", '#ggi', function(){ggi()});
 	$(document).on("click", '#git', function(){git()});
 	$(document).on("click", '#freq', function(){freq()});
 	$(document).on("click", '#TOW', function(){tow()});
 	$(document).on("click", '#K2CLD', function(){K2CLD()});
+	$(document).on("click", '#pixelBuster', function(){pixelBuster()});
 };
 
+var linkedIn = function(){
+	console.log('linkedIn');
+	window.open('https://www.linkedin.com/in/donal-mcclean-34199b96/');
+}
+
 var K2CLD = function(){
-	window.open('https://itch.io/jam/gmtk-jam/rate/159156')
+	console.log('K2CLD');
+	window.open('https://itch.io/jam/gmtk-jam/rate/159156');
 }
 
 var ggi = function(){
-	//window.open('http://www.goodgameireland.com');
-	alert('Site under maintaince.')
+	window.open('http://don6l.github.io/GabeGameV3.zip');
+	//alert('Site under maintaince.')
 };
 
 var git = function(){
@@ -41,11 +49,17 @@ var freq = function(){
 };
 
 
-var imageSelect = function(){
-	alert('Nothing Yet');
+var evac = function(){
+	console.log('evac');
+	window.open('https://don6l.itch.io/evac');
 };
 
 var tow = function(){
 	console.log('TOW');
 	window.open('http://don6l.github.io/TugOfWar');
+};
+
+var pixelBuster = function(){
+	console.log('pixelBuster');
+	window.open('https://don6l.itch.io/pixel-busters-game-jam');
 };
